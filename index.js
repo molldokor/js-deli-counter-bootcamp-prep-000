@@ -1,8 +1,6 @@
-function takeANumber(currentline, name) {
-  currentline.push(name);
-  //var position  = currentline.length;
-  var number = currentline
-  return `Welcome, ${name}. You are number ${position} in line.`;
+function takeANumber(previousNumber) {
+  var newNumber = previousNumber + 1;
+  return `You are number ${newNumber} in line.`;
 }
 
 function nowServing(currentline) {
